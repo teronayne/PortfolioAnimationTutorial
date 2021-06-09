@@ -1,20 +1,34 @@
-const balloon = document.querySelector('balloon')
-const cloudOne = document.querySelector('cloud-one')
-const cloudTwo = document.querySelector('cloud-two')
-const cloudThree = document.querySelector('cloud-three')
-const cloudFour = document.querySelector('cloud-four')
-const cloudFive = document.querySelector('cloud-five')
-const javascript = document.querySelector('javascript')
-const react = document.querySelector('react')
-const graphql = document.querySelector('graphql')
-/*const balloonYFromBottom = 10
+const balloon = document.getElementById('air-balloon')
+const cloudOne = document.getElementById('cloud-one')
+const cloudTwo = document.getElementById('cloud-two')
+const cloudThree = document.getElementById('cloud-three')
+const cloudFour = document.getElementById('cloud-four')
+const cloudFive = document.getElementById('cloud-five')
+const javascript = document.getElementById('javascript')
+const react = document.getElementById('react')
+const graphql = document.getElementById('graphql')
 
-balloon.style.bottom = balloonYFromBottom + '%'
+
+
 
 function move() {
   const incrementer = window.scrollY
 
-  balloon.style.bottom = balloonYFromBottom + incrementer * 0.1 + '%'
+  balloon.style.bottom = 10 + incrementer * 0.1 + '%'
+
+  cloudOne.style.bottom = 40 + incrementer * 0.12 + '%'
+  cloudOne.style.marginRight = 75 + incrementer * 0.1 + '%'
+  cloudTwo.style.bottom = 80 + incrementer * 0.14 + '%'
+  cloudTwo.style.marginRight = 70 + incrementer * 0.15 + '%'
+  cloudThree.style.bottom = 60 + incrementer * 0.1 + '%'
+  cloudThree.style.marginRight = 0 + incrementer * -0.12 + '%'
+  cloudFour.style.bottom = 70 + incrementer * 0.16 + '%'
+  cloudFour.style.marginRight = 20 + incrementer * -0.15 + '%'
+  cloudFive.style.bottom = 60 + incrementer * 0.2 + '%'
+  cloudFive.style.marginRight = 60 + incrementer * 0.16 + '%'
+  javascript.style.left = 20 + incrementer * -2.2 + '%'
+  react.style.left = 26 + incrementer * -1.5 + '%'
+  graphql.style.left = 32 + incrementer * -1 + '%'
 }
 
-window.addEventListener('scroll', move) */
+window.addEventListener('scroll', move) 
