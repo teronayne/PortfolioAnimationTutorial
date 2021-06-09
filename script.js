@@ -7,7 +7,7 @@ const cloudFive = document.querySelector('cloud-five')
 const javascript = document.querySelector('javascript')
 const react = document.querySelector('react')
 const graphql = document.querySelector('graphql')
-const balloonYFromBottom = 10
+/*const balloonYFromBottom = 10
 
 balloon.style.bottom = balloonYFromBottom + '%'
 
@@ -17,4 +17,4 @@ function move() {
   balloon.style.bottom = balloonYFromBottom + incrementer * 0.1 + '%'
 }
 
-window.addEventListener('scroll', move)
+window.addEventListener('scroll', move) */
